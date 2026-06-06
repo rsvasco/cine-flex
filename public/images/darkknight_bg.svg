@@ -1,0 +1,31 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradBack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14213d" />
+      <stop offset="40%" stop-color="#14213d" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1280" height="720" fill="url(#bgGradBack)" />
+  
+  <!-- Abstract Shapes for Backdrop -->
+  <g opacity="0.15">
+    <circle cx="900" cy="360" r="300" fill="#E50914" filter="blur(80px)" />
+    <circle cx="1100" cy="200" r="200" fill="#000" />
+  </g>
+
+  <!-- Large text behind -->
+  <text x="640" y="420" fill="#E50914" font-family="'Outfit', sans-serif" font-size="180" font-weight="900" text-anchor="middle" opacity="0.05" letter-spacing="20">
+    THE DARK KNIGHT
+  </text>
+  
+  <!-- Overlay Content -->
+  <g transform="translate(100, 220)" font-family="'Outfit', sans-serif">
+    <text x="0" y="0" fill="#ffffff" font-size="72" font-weight="900" letter-spacing="2">THE DARK KNIGHT</text>
+    <text x="0" y="45" fill="#E50914" font-size="14" font-weight="700" letter-spacing="8">OFFICIAL FIRST LOOK</text>
+    <text x="0" y="110" fill="#cccccc" font-size="18" width="600" opacity="0.8" font-style="italic">
+      "Why So Serious?"
+    </text>
+  </g>
+</svg>

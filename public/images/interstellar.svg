@@ -1,0 +1,37 @@
+<svg width="500" height="750" viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a" />
+      <stop offset="100%" stop-color="#010811" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="500" height="750" fill="url(#bgGrad)" />
+  
+  <!-- Outer border -->
+  <rect x="20" y="20" width="460" height="710" fill="none" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="2" />
+  
+  <!-- Background Art Pattern -->
+  <g opacity="0.2">
+      <circle cx="249" cy="113" r="1.7169293788880655" fill="#fff" /><circle cx="115" cy="182" r="2.43545650179745" fill="#fff" /><circle cx="121" cy="486" r="0.955033691210581" fill="#fff" /><circle cx="132" cy="681" r="2.317092958808126" fill="#fff" /><circle cx="245" cy="383" r="2.4420654846772347" fill="#fff" /><circle cx="255" cy="139" r="2.059392551490319" fill="#fff" /><circle cx="184" cy="607" r="2.066490494917753" fill="#fff" /><circle cx="3" cy="292" r="2.151502535713022" fill="#fff" /><circle cx="10" cy="364" r="0.557849048133652" fill="#fff" /><circle cx="481" cy="11" r="2.1383979648501272" fill="#fff" /><circle cx="36" cy="292" r="2.401328685687517" fill="#fff" /><circle cx="126" cy="93" r="1.624674991423049" fill="#fff" /><circle cx="92" cy="132" r="1.7768065047709198" fill="#fff" /><circle cx="476" cy="67" r="2.1861980457252264" fill="#fff" /><circle cx="261" cy="522" r="2.1441366428998587" fill="#fff" /><circle cx="468" cy="492" r="1.0138492826201881" fill="#fff" /><circle cx="319" cy="220" r="1.7498201051739877" fill="#fff" /><circle cx="474" cy="104" r="1.9209536058287802" fill="#fff" /><circle cx="405" cy="476" r="2.1816415135242972" fill="#fff" /><circle cx="221" cy="275" r="1.4970410643255292" fill="#fff" /><circle cx="361" cy="412" r="2.1651649181745904" fill="#fff" /><circle cx="150" cy="531" r="1.014937631470326" fill="#fff" /><circle cx="476" cy="286" r="1.800180722442332" fill="#fff" /><circle cx="59" cy="652" r="0.7473468480132934" fill="#fff" /><circle cx="435" cy="482" r="2.4700053990330986" fill="#fff" /><circle cx="16" cy="485" r="1.41818090564191" fill="#fff" /><circle cx="423" cy="275" r="0.9792606162538688" fill="#fff" /><circle cx="110" cy="143" r="1.3356626953760447" fill="#fff" /><circle cx="134" cy="399" r="0.7730986920382201" fill="#fff" /><circle cx="392" cy="18" r="1.4930993770086587" fill="#fff" /><circle cx="6" cy="104" r="1.8340069150822438" fill="#fff" /><circle cx="230" cy="206" r="2.3102337906528687" fill="#fff" /><circle cx="373" cy="633" r="2.1512800943966672" fill="#fff" /><circle cx="218" cy="673" r="2.3666783318319853" fill="#fff" /><circle cx="416" cy="542" r="1.6528317927471128" fill="#fff" /><circle cx="251" cy="50" r="0.7792238465356829" fill="#fff" /><circle cx="15" cy="245" r="1.0915351209626274" fill="#fff" /><circle cx="146" cy="22" r="0.8099607033727261" fill="#fff" /><circle cx="54" cy="487" r="0.7036885392841576" fill="#fff" /><circle cx="382" cy="677" r="0.6789777746320835" fill="#fff" /><circle cx="376" cy="666" r="1.2090543449408733" fill="#fff" /><circle cx="282" cy="321" r="1.0930375369166658" fill="#fff" /><circle cx="138" cy="655" r="2.223218591354239" fill="#fff" /><circle cx="57" cy="25" r="1.2075880312258995" fill="#fff" /><circle cx="356" cy="334" r="2.0928037308326086" fill="#fff" /><circle cx="488" cy="650" r="0.7042708976176626" fill="#fff" /><circle cx="68" cy="126" r="1.295734507546471" fill="#fff" /><circle cx="229" cy="582" r="1.3185968058443724" fill="#fff" /><circle cx="294" cy="427" r="1.560363174204926" fill="#fff" /><circle cx="315" cy="35" r="1.4519588542426651" fill="#fff" />
+    </g>
+  
+  <!-- Center Graphic Group -->
+  <g transform="translate(0, 50)">
+    <circle cx="250" cy="300" r="90" fill="#000" stroke="#fff" stroke-width="2"/>
+           <ellipse cx="250" cy="300" rx="140" ry="15" fill="none" stroke="#D4AF37" stroke-width="6" transform="rotate(-15, 250, 300)" opacity="0.8"/>
+           <circle cx="250" cy="300" r="85" fill="none" stroke="#415a77" stroke-width="1"/>
+           <circle cx="220" cy="260" r="2" fill="#fff"/>
+           <circle cx="280" cy="340" r="3" fill="#fff"/>
+  </g>
+  
+  <!-- Typography -->
+  <g text-anchor="middle" font-family="'Outfit', 'Inter', sans-serif">
+    <text x="250" y="580" fill="#ffffff" font-size="36" font-weight="900" letter-spacing="4">INTERSTELLAR</text>
+    <text x="250" y="620" fill="#D4AF37" font-size="12" font-weight="700" letter-spacing="8" opacity="0.8">FIRST LOOK</text>
+    <rect x="150" y="640" width="200" height="1" fill="#D4AF37" opacity="0.5" />
+    <text x="250" y="675" fill="#cccccc" font-size="11" font-weight="500" letter-spacing="1" font-style="italic" opacity="0.7">
+      Mankind was born on Earth. It was never meant to die here.
+    </text>
+  </g>
+</svg>
