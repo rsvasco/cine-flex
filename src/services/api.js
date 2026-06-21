@@ -330,13 +330,23 @@ export const movieService = {
     ),
   getDetails: (id) => 
     handleRequest(
-      () => api.get(`/movie/${id}`, { params: { append_to_response: 'videos,credits,recommendations' } }),
+      () => api.get(`/movie/${id}`, { params: { append_to_response: 'videos,credits,recommendations,similar' } }),
       () => {
         const movie = MOCK_MOVIES.find(m => String(m.id) === String(id)) || MOCK_MOVIES[0];
         return {
           ...movie,
+          genres: movie.genres || (movie.genre_ids ? movie.genre_ids.map(gid => MOCK_GENRES.find(g => g.id === gid)).filter(Boolean) : []),
+          budget: movie.budget || 140000000,
+          revenue: movie.revenue || 520000000,
+          production_companies: movie.production_companies || [
+            { id: 1, name: "Universal Pictures", logo_path: null, origin_country: "US" },
+            { id: 2, name: "Syncopy", logo_path: null, origin_country: "US" }
+          ],
           recommendations: {
             results: MOCK_MOVIES.filter(m => String(m.id) !== String(id))
+          },
+          similar: {
+            results: MOCK_MOVIES.filter(m => String(m.id) !== String(id)).reverse()
           }
         };
       }
